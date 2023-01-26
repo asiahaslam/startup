@@ -1,2 +1,2 @@
-# startup
-This is my startup page. I made these edits on VS Code.
+# startup1
+Here are some edits from VS Code
