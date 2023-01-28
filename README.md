@@ -9,4 +9,4 @@ I learned tons from this assignment. I think I had originally made some kind of 
 Elevator pitch: 
 Have you ever played the Oregon Trail game that was released back in the 70’s? Maybe you've read a Choose Your Own Adventure Book as a kid. Our new app is designed to bring back the fun and nostalgia of a simple game where you can affect the outcome by making choices. Eventually, we hope to have a variety of themes to choose from, but right now we are focusing on a mission to space. This app will allow you to make an account, choose your path through a series of exciting scenes, and see how you compare to other players that day.
 
-![screenflow](https://user-images.githubusercontent.com/122311864/215242738-782d9aec-be3f-4809-8642-09e422226e97.jpg)
+![Screenflow](https://user-images.githubusercontent.com/122311864/215247532-c04987b2-6da7-4dc1-b34a-86d0b6292189.png)
