@@ -1,0 +1,33 @@
+body {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  
+  main {
+    clear: both;
+    float: none;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  p {
+    max-width: 35em;
+    text-align: center;
+    margin-top: 7px;
+  }
+  
+  .navbar bg-light {
+    text-align: center;
+    font-size: 18pt;
+    clear: both;
+    float: none;
+  }
+  
+  .image {
+    text-align: center;
+    clear: both;
+    float: none;
+    margin: 0 10px 10px 10px;
+  }
