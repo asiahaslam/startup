@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    text-align: left;
+}
+  
+main {
+    clear: both;
+    float: none;
+    width: 85%;
+    margin-left: 7.5%;
+}
+  
+.navbar bg-light {
+    text-align: center;
+    font-size: 18pt;
+    clear: both;
+    float: none;
+    width: 100%;
+}
+
+.navbar bg-light {
+    text-align: center;
+    padding-left: 0;
+    background-color: #003554;
+    color: #ffffff;
+}
