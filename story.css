@@ -30,3 +30,15 @@ body {
     width: 95%;
     margin-bottom: 20px;
   }
+
+  .full-width button {
+    width: 100%;
+    clear: both;
+    margin-bottom: 5px;
+    background-color: #006494;
+    border-color: #006494;
+  }
+
+  p {
+    vertical-align: middle;
+  }

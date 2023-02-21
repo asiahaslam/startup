@@ -1340,7 +1340,7 @@ pre {
   .table-dark th,
   .table-dark td,
   .table-dark thead th {
-    border-color: #454d55; }
+    border-color: #222222; }
   .table-dark.table-bordered {
     border: 0; }
   .table-dark.table-striped tbody tr:nth-of-type(odd) {
@@ -1404,7 +1404,7 @@ pre {
   color: #fff;
   background-color: #222222;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #222222;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -3054,6 +3054,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
+  color: #ffffff;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
