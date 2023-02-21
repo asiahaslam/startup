@@ -1,5 +1,5 @@
 :root {
-  --blue: #00a6fb;
+  --blue: #006494;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -12,7 +12,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #00a6fb;
+  --primary: #006494;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -4681,7 +4681,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #00a6fb !important; }
+  background-color: #006494 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,

@@ -1,6 +1,7 @@
 body {
     height: 100%;
     text-align: center;
+    background-image: url(images/background.jpg);
   }
   
   main {
@@ -37,8 +38,11 @@ body {
     width: 100%;
     clear: both;
     margin-bottom: 5px;
-    background-color: #006494;
-    border-color: #006494;
+  }
+
+  .bg-primary {
+    opacity: 0.9;
+    color: #006494;
   }
 
   p {
