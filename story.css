@@ -8,11 +8,13 @@ body {
     float: none;
     width: 85%;
     margin-left: 7.5%;
+    vertical-align: middle;
+    margin-top: 40px;
   }
   
   p {
     max-width: 35em;
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
   
