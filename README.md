@@ -11,4 +11,7 @@ Have you ever played the Oregon Trail game that was released back in the 70’s?
 
 [Screenflow](https://github.com/asiahaslam/startup/files/10526008/Screenflow.Diagram.Flowchart.Whiteboard.in.Pink.Yellow.Adjacent.Color.Blocks.Style.pdf)
 
+HTML and CSS:
+I learned tons about how to use Bootstrap while making this simple application. I have never used Bootstrap before, so it was a good learning experience. I found an online tool where I could change the color scheme in Bootstrap to make it a bit more like space.
+
 

@@ -5,12 +5,13 @@ body {
   }
   
   main {
-    clear: both;
-    float: none;
-    width: 85%;
-    margin-left: 7.5%;
     vertical-align: middle;
     margin-top: 40px;
+    max-width: 32em;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 7.5%;
   }
   
   p {
