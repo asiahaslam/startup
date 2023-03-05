@@ -6,10 +6,10 @@ body {
 main {
     clear: both;
     float: none;
-    width: 85%;
-    margin-left: 7.5%;
-    margin-top: 25%;
-    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 85%;
 }
   
 .navbar bg-light {
