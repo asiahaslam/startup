@@ -1,9 +1,6 @@
-function getPlayerName() {
-    let named = localStorage.getItem('userName') ?? 'mystery user';
-    return named;
-  }
+const playerNameEl = document.getElementById("user");
+playerNameEl.textContent = this.getPlayerName();
 
-  const why = getPlayerName ();
-
-const el = document.getElementById("user");
-el.innerHTML = '<span>[${why}]</span>';
+getPlayerName() {
+  return localStorage.getItem('userName') ?? 'Mystery player';
+}
