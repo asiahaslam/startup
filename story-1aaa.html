@@ -21,12 +21,16 @@
       </div>
     </nav>
     <main>
-      <p>“It&apos;s the… fuel tank… shattered… turn back…” His voice goes silent completely. “Dr. Cabral?” you ask. There is no answer.</p>
-      <p>You wait. Lucas doesn&apos;t reenter the shuttle. You perform a vitals scan on his suit: it doesn&apos;t show a heartbeat. </p>
+      <p>“It&apos;s the… fuel tank… shattered… turn back…” His voice goes silent completely. “Dr. Cabral?” <span id="userName"></span> asks. There is no answer.</p>
+      <p><span id="userName"></span> waits. Lucas doesn&apos;t reenter the shuttle. <span id="userName"></span> performs a vitals scan on his suit: it doesn&apos;t show a heartbeat. </p>
       <p>After a few hours in the tail, you start to hear a clanking sound outside the shuttle. It seems to be getting louder.</p>
-      <p>You radio back to earth and inform NASA about the accident, and about the unexplained clanging sound. </p>
+      <p><span id="userName"></span> radios back to earth to inform NASA about the accident and about the unexplained clanging sound. </p>
       <a href="story-1aaaa.html"><button class="btn btn-primary" type="button">Next</button></a>
     </main>
+    <script>
+      var name = localStorage.getItem("userName");
+      document.getElementById("userName").innerHTML = name;
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
