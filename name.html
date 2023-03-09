@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" href="login.css" />
-    <script src="name.js"></script>
+    <script>
+      function saveUserName() {
+        var name = document.getElementById("name").value;
+        localStorage.setItem("userName", name);
+      }
+    </script>
   </head>
   <body>
     <nav class="navbar bg-dark">
@@ -18,10 +23,11 @@
     </nav>
     <main>
         <h1>What is your name?</h1>
-        <div>
-            <input type="text" id="names" placeholder="Your name here" />
-            <button class="btn btn-primary" onclick="personName()" href="story-1.html">Login</button>
-        </div>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <button class="btn btn-primary"><a class="color: white;" href="story-1.html" onclick="saveUserName()">Submit</a></button>
+        </form>
     </main>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
