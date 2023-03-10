@@ -21,11 +21,19 @@
       </div>
     </nav>
     <main>
-      <p>You agree to the creature&apos;s terms. Your team returns home to Earth and is lauded for their work. You are appointed as the leader of the human colony on Arion.</p>
-      <p>You strictly prevent any kind of mining or digging on the planet, claiming the presence of noxious gasses underground.</p>
-      <p>Every few months, you hear a strange clang outside your pod. You ignore it.</p>
+      <p>The team agrees to the creature&apos;s terms. They return home to Earth and are lauded for their work. <span class="user"></span> is appointed as the leader of the human colony on Arion.</p>
+      <p>They strictly prevent any kind of mining or digging on the planet, claiming the presence of noxious gasses underground.</p>
+      <p>Every few months, <span class="user"></span> hears a strange clang outside their pod. They ignore it.</p>
       <a href="story-w.html"><button class="btn btn-primary" type="button">Next</button></a>
     </main>
+    <script>
+      const name = localStorage.getItem("userName");
+      const getClass = document.querySelectorAll(".user");
+      getClass.forEach(element => {
+        element.textContent = name;
+      });
+      getClass[0];
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>

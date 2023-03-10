@@ -21,15 +21,23 @@
       </div>
     </nav>
     <main>
-    <p>After a long walk with your team, you decide to head back to the ship to set up your habitation pod.</p>
-    <p>When you wake up in the morning, you see a few large boulders near your pod that you hadn&apos;t noticed the day before.</p>
-    <p>As you eat breakfast, you hear a clank outside the pod. A minute later, you hear another. What could possibly be making that noise? You offer to take a look outside.</p>
-    <p>You step out the door, and what you see is unexplainable. A small rock lifts off the ground and flings itself at the pod.</p>
+    <p>After a long walk as a team, Kristin, Lucas, and <span class="user"></span> decide to head back to the ship to set up the habitation pod.</p>
+    <p>When <span class="user"></span> wakes up in the morning, they see a few large boulders near the pod that they hadn&apos;t noticed the day before.</p>
+    <p>As they eat breakfast, <span class="user"></span> hears a clank outside the pod. A minute later, they hear another. What could possibly be making that noise? <span class=""user></span> offers to take a look outside.</p>
+    <p><span class="user"></span> steps out the door, and what they see is unexplainable. A small rock lifts off the ground and flings itself at the pod.</p>
     <div class="full-width">
       <a href="story-2aa.html"><button class="btn btn-primary" type="button">Call your team to come see</button></a>
       <a href="story-a.html"><button class="btn btn-primary" type="button">Abort mission&mdash;this planet is not safe</button></a>
     </div>
     </main>
+    <script>
+      const name = localStorage.getItem("userName");
+      const getClass = document.querySelectorAll(".user");
+      getClass.forEach(element => {
+        element.textContent = name;
+      });
+      getClass[0];
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
