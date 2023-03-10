@@ -21,11 +21,19 @@
       </div>
     </nav>
     <main>
-      <p>&quot;Help me out, Dr. Lund,&quot; you say as you retrieve a crowbar from the interior of the ship and start scraping away at the metal residue.</p>
+      <p>&quot;Help me out, Dr. Lund,&quot; <span class="user"></span> says as they retrieve a crowbar from the interior of the ship and start scraping away at the metal residue.</p>
       <p>If you can remove the buildup, maybe you can set the fuel cell back in place and make a safe flight back to earth.</p>
       <p>“I don&apos;t recommend that, captain. Iridium is so rare that we have no idea what kinds of dangerous properties it may have. The damage may be more extensive than we realize.&quot;</p>
       <a href="story-1aaaababaaa.html"><button class="btn btn-primary" type="button">Next</button></a>
     </main>
+    <script>
+      const name = localStorage.getItem("userName");
+      const getClass = document.querySelectorAll(".user");
+      getClass.forEach(element => {
+        element.textContent = name;
+      });
+      getClass[0];
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>

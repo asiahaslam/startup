@@ -21,10 +21,18 @@
       </div>
     </nav>
     <main>
-      <p>You&apos;re amazed at how solid the repair looks. “We can make it all the way back to earth with that fix!” you say. After taking some scientific samples on the comet, you take off and head back to earth.</p>
-      <p>The repair holds throughout the flight and you make it safely back to earth. A solemn funeral is held for Lucas. Nonetheless, your mission has been a success and is hailed as a landmark scientific achievement.</p>
+      <p><span class="info"></span> is amazed at how solid the repair looks. “We can make it all the way back to earth with that fix!” they say. After taking some scientific samples on the comet, they take off and head back to earth.</p>
+      <p>The repair holds throughout the flight and <span class="info"></span> and Kristen make it safely back to earth. A solemn funeral is held for Lucas. Nonetheless, the mission has been a success and is hailed as a landmark scientific achievement.</p>
       <a href="story-w.html"><button class="btn btn-primary" type="button">Next</button></a>
     </main>
+    <script>
+      const name = localStorage.getItem("userName");
+      const getClass = document.querySelectorAll(".user");
+      getClass.forEach(element => {
+        element.textContent = name;
+      });
+      getClass[0];
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
