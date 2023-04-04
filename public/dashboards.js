@@ -7,6 +7,9 @@ class Game {
   playerNameEl = document.querySelector('.player-name');
 
   constructor() {
+
+    const event = Object.assign({ from, type, value });
+    
     this.playerNameEl.textContent = this.getPlayerName();
 
     this.configureWebSocket();

@@ -64,6 +64,7 @@ main {
 #player-messages {
     padding-top: 0.25em;
     opacity: 0.7;
+    color: #ffffff;
 }
   
 .event {
