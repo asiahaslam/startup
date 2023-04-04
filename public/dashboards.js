@@ -4,11 +4,10 @@ const GameStartEvent = 'gameStart';
 
 class Game {
   socket;
+  playerNameEl = document.querySelector('.player-name');
 
   constructor() {
-
-    const playerNameEl = document.querySelector('.player-name');
-    playerNameEl.textContent = this.getPlayerName();
+    this.playerNameEl.textContent = this.getPlayerName();
 
     this.configureWebSocket();
 
@@ -42,16 +41,11 @@ class Game {
 
   displayMsg(cls, from, msg) {
     const chatText = document.querySelector('#player-messages');
-    chatText.innerHTML =
-      `<div class="event"><span class="${cls}-event">${from}</span> ${msg}</div>` + chatText.innerHTML;
+    chatText.innerHTML = `<div class="event"><span class="${cls}-event">${from}</span> ${msg}</div>` + chatText.innerHTML;
   }
 
   broadcastEvent(from, type, value) {
-    const event = {
-      from: from,
-      type: type,
-      value: value,
-    };
+    const event = Object.assign({ from, type, value });
     this.socket.send(JSON.stringify(event));
   }
 }
