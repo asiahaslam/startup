@@ -38,6 +38,20 @@ async function createUser(email, password) {
   return user;
 }
 
+function addScore(score) {
+  scoreCollection.insertOne(score);
+}
+
+function getHighScores() {
+  const query = {};
+  const options = {
+    sort: { score: -1 },
+    limit: 10,
+  };
+  const cursor = scoreCollection.find(query, options);
+  return cursor.toArray();
+}
+
 module.exports = {
   getUser,
   getUserByToken,
