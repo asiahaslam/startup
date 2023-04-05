@@ -23,6 +23,7 @@ class Game {
 
     this.socket.onopen = (event) => {
       this.displayMsg('system', 'game', 'connected');
+      console.log('sent');
       this.broadcastEvent({ from: GameStartEvent, value: { playerName: this.getPlayerName() } });
     };
 
@@ -31,9 +32,11 @@ class Game {
     };
 
     this.socket.onmessage = async (event) => {
-      const msg = JSON.parse(await event.text());
-      if (msg.type === GameStartEvent) {
-        this.displayMsg('player', msg.from, `started a new game`);
+        console.log('error');
+      const msg = JSON.parse(await event.data.text());
+      console.log(msg);
+      if (msg.from === GameStartEvent) {
+        this.displayMsg('player', msg.value.playerName, `started a new game`);
       }
     };
   }
