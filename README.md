@@ -16,3 +16,6 @@ I learned tons about how to use Bootstrap while making this simple application. 
 
 JavaScript:
 I struggled figuring out how to update every instance of the name on a page, because it would only update the first one. I spent a lot of time trying to look up a solution, and finally figured out I had to use a kind of loop to get it to insert the name every time I had an element with the "user" class.
+
+Service:
+Adding the express service was pretty easy because I just added a random quote like in Simon. The login was pretty rough. I still don't know what the issue was, but copying the backend directly from simon, besides changing one link, and using the same exact public file finally allowed me to deploy my application. I had to get a lot of help from a TA figuring out the websocket issue. I had gotten help from ChatGPT which was mostly helpful, but it was supposed to be event.data.text instead of data.text.event, and in another place it was supposed to be msg.from instead of msg.something else and msg.value.playerName to get the player's name in the message. The TA also helped me know where to place console logs to see where the issue was.
