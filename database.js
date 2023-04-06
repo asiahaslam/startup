@@ -16,7 +16,7 @@ const client = new MongoClient(url);
 const userCollection = client.db('startup').collection('user');
 const scoreCollection = client.db('startup').collection('score');
 
-function getUser(user) {
+function getUser(email) {
   return userCollection.findOne({ email: email });
 }
 
@@ -24,7 +24,7 @@ function getUserByToken(token) {
   return userCollection.findOne({ token: token });
 }
 
-async function createUser(user, password) {
+async function createUser(email, password) {
   // Hash the password before we insert it into the database
   const passwordHash = await bcrypt.hash(password, 10);
 
