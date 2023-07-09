@@ -1,5 +1,5 @@
 function displayQuote(data) {
-    fetch('https://api.quotable.io/random')
+    fetch('http://bomapi-happycloud.rhcloud.com/v1/verses')
       .then((response) => response.json())
       .then((data) => {
         const containerEl = document.querySelector('#quote');
