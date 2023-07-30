@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="story.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+      body {
+        background-image: url(images/camels.jpg);
+        background-position: center;
+      }
+      main {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 30em;
+      }
+      div.full-width {
+        max-width: 25em;
+      }
+      main p {
+        color: black;
+      }
+      main h3 {
+        color: black;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar bg-dark">
@@ -22,19 +43,14 @@
       </div>
     </nav>
     <main>
-      <p>“It&apos;s the . . . fuel tank . . . shattered . . . turn back . . .” His voice goes silent completely. “Dr. Cabral?” <span class="user"></span> asks. There is no answer.</p>
-      <p><span class="user"></span> waits. Lucas doesn&apos;t reenter the shuttle. Kristin performs a vitals scan on his suit; it doesn&apos;t show a heartbeat. </p>
-      <p>Kristin radios back to earth to inform NASA about the accident and about the unexplained clanging sound.</p>
-      <a href="story-1aaaa.html"><button class="btn btn-primary" type="button">Next</button></a>
+      <p>The lots fall to Laban.</p>
+      <h3>1 Nephi 3</h3>
+      <p><b>13</b> <em>And behold, it came to pass that Laban was angry, and thrust him out from his presence; and he would not that he should have the records. Wherefore, he said unto him: Behold thou art a robber, and I will slay thee.</em></p>
+      <p><b>14</b> <em>But Laman fled out of his presence, and told the things which Laban had done, unto us. And we began to be exceedingly sorrowful, and my brethren were about to return unto my father in the wilderness.</em></p>
+      <div class="full-width">
+        <a href="story-a.html"><button class="btn btn-primary" type="button">Go back to the wilderness with your family</button></a>
+        <a href="story-1aaaa.html"><button class="btn btn-primary" type="button">Trust in God and find a new plan</button></a>
+    </div>
     </main>
-    <script>
-      const name = localStorage.getItem("userName");
-      const getClass = document.querySelectorAll(".user");
-      getClass.forEach(element => {
-        element.textContent = name;
-      });
-      getClass[0];
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
