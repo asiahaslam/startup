@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    text-align: center;
+    background-image: url(images/camels.jpg);
+    background-position: center;
+}
+  
+main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 85%;
+}
+  
+p {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+  
+.navbar bg-light {
+    font-size: 18pt;
+    clear: both;
+    float: none;
+    width: 100%;
+}
+  
+.image {
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.full-width button {
+    width: 100%;
+    clear: both;
+    margin-bottom: 5px;
+    background-color: #006494;
+    border-color: #006494;
+}
+
+main {
+    padding-bottom: 175px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+

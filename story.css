@@ -1,0 +1,76 @@
+body {
+    height: 100%;
+    text-align: center;
+    background-image: url(images/camels.jpg);
+    background-position: center;
+  }
+  
+  main {
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 85%;
+  }
+  
+  main p {
+    text-align: left;
+    margin-bottom: 30px;
+    max-width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    vertical-align: middle;
+  }
+  
+  .navbar bg-light {
+    font-size: 18pt;
+    clear: both;
+    float: none;
+    width: 100%;
+  }
+  
+  .image {
+    text-align: center;
+    clear: both;
+    float: none;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .full-width button {
+    width: 100%;
+    clear: both;
+    margin-bottom: 5px;
+  }
+
+  .bg-primary {
+    opacity: 0.9;
+    color: #006494;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.full-width {
+    max-width: 25em;
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .narrow {
+    max-width: 30em;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  h1 {
+    color: black
+  }
