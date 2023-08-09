@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    background-image: url(images/camels.jpg);
+    background-position: center;
+}
+  
+main {
+    vertical-align: middle;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 85%;
+    
+}
+  
+p {
+    margin-bottom: 40px;
+    color: black;
+}
+  
+.navbar bg-light {
+    font-size: 18pt;
+    clear: both;
+    float: none;
+    width: 100%;
+}
+
+#quote {
+    max-height: 8em;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
